@@ -1,2 +1,3 @@
 # mqtt-device-test
-This is a simple project that acts as a device sending stuff to the IoT cloud
+
+This is a simple test to prove I can send MQTT messages to an IoT broker up in the BlueMix cloud
