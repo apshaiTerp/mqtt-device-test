@@ -37,6 +37,7 @@
     <paho.version>1.0.2</paho.version>
     <json.version>20140107</json.version>
     <junit.version>4.11</junit.version>
+    <mig.version>3.7.4</mig.version>
 
     <!--  Plugin Versions  -->
     <compiler.plugin.version>3.1</compiler.plugin.version>
@@ -56,6 +57,11 @@
         <groupId>org.json</groupId>
         <artifactId>json</artifactId>
         <version>${json.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>com.miglayout</groupId>
+        <artifactId>miglayout</artifactId>
+        <version>${mig.version}</version>
     </dependency>
     <!-- Test Dependencies -->
     <dependency>

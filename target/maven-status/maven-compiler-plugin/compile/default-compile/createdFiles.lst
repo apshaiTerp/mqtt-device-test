@@ -1,4 +1,9 @@
-org/ac/bluemix/DeviceMQTTHandler.class
+org/ac/bluemix/DeviceThread.class
+org/ac/bluemix/ui/DeviceConfigFrame.class
 org/ac/bluemix/MQTTUtil.class
-org/ac/bluemix/SimpleDevice.class
 org/ac/bluemix/MQTTHandler.class
+org/ac/bluemix/DeviceMQTTHandler.class
+org/ac/bluemix/ui/DeviceSimFrame.class
+org/ac/bluemix/ui/DeviceConfigFrame$1.class
+org/ac/bluemix/ui/DeviceSimFrame$1.class
+org/ac/bluemix/SimpleDevice.class

@@ -37,7 +37,7 @@ public class MQTTHandler implements MqttCallback {
    * @see org.eclipse.paho.client.mqttv3.MqttCallback#deliveryComplete(org.eclipse.paho.client.mqttv3.IMqttDeliveryToken)
    */
   public void deliveryComplete(IMqttDeliveryToken arg0) {
-    System.out.println ("deliveryComplete()!");
+    //System.out.println ("deliveryComplete()!");
 
   }
 
