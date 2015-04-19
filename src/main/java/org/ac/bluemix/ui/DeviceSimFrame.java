@@ -84,8 +84,8 @@ public class DeviceSimFrame extends JFrame implements ActionListener {
     
     mainPanel.add(pulseLabel, "width 140:140:160");
     mainPanel.add(pulseField, "width 140:140:160");
-    mainPanel.add(pulseDownButton, "width 40:40:40");
-    mainPanel.add(pulseUpButton, "width 40:40:40");
+    mainPanel.add(pulseDownButton, "width 50:50:50");
+    mainPanel.add(pulseUpButton, "width 50:50:50");
 
     mainPanel.add(new JLabel("--------------------------------------------------", JLabel.CENTER), "span");
 
@@ -96,8 +96,8 @@ public class DeviceSimFrame extends JFrame implements ActionListener {
     
     mainPanel.add(systolicLabel, "width 140:140:160");
     mainPanel.add(systolicField, "width 140:140:160");
-    mainPanel.add(systolicDownButton, "width 40:40:40");
-    mainPanel.add(systolicUpButton, "width 40:40:40");
+    mainPanel.add(systolicDownButton, "width 50:50:50");
+    mainPanel.add(systolicUpButton, "width 50:50:50");
 
     JLabel diastolicLabel = new JLabel("Diastolic BP: ", JLabel.RIGHT);
     diastolicField = new JTextField("70");
@@ -106,8 +106,8 @@ public class DeviceSimFrame extends JFrame implements ActionListener {
     
     mainPanel.add(diastolicLabel, "width 140:140:160");
     mainPanel.add(diastolicField, "width 140:140:160");
-    mainPanel.add(diastolicDownButton, "width 40:40:40");
-    mainPanel.add(diastolicUpButton, "width 40:40:40");
+    mainPanel.add(diastolicDownButton, "width 50:50:50");
+    mainPanel.add(diastolicUpButton, "width 50:50:50");
 
     mainPanel.add(new JLabel("--------------------------------------------------", JLabel.CENTER), "span");
 
@@ -119,8 +119,8 @@ public class DeviceSimFrame extends JFrame implements ActionListener {
     
     mainPanel.add(tempLabel, "width 140:140:160");
     mainPanel.add(tempField, "width 140:140:160");
-    mainPanel.add(tempDownButton, "width 40:40:40");
-    mainPanel.add(tempUpButton, "width 40:40:40");
+    mainPanel.add(tempDownButton, "width 50:50:50");
+    mainPanel.add(tempUpButton, "width 50:50:50");
 
     mainPanel.add(new JLabel("--------------------------------------------------", JLabel.CENTER), "span");
 
@@ -131,8 +131,8 @@ public class DeviceSimFrame extends JFrame implements ActionListener {
     
     mainPanel.add(o2SatLabel, "width 140:140:160");
     mainPanel.add(o2SatField, "width 140:140:160");
-    mainPanel.add(o2SatDownButton, "width 40:40:40");
-    mainPanel.add(o2SatUpButton, "width 40:40:40");
+    mainPanel.add(o2SatDownButton, "width 50:50:50");
+    mainPanel.add(o2SatUpButton, "width 50:50:50");
 
     mainPanel.add(new JLabel("--------------------------------------------------", JLabel.CENTER), "span");
     
