@@ -25,7 +25,6 @@ public class DeviceMQTTHandler extends MQTTHandler {
       //Reset the count
       if (cmd != null && cmd.equals("reset")) {
         int resetcount = jsonObject.getInt("count");
-        DeviceThread.count = resetcount;
         System.out.println("Count is reset to " + resetcount);
       }
     }
