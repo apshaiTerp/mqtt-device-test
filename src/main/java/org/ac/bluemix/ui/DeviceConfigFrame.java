@@ -41,8 +41,9 @@ public class DeviceConfigFrame extends JFrame implements ActionListener {
     JLabel deviceLabel = new JLabel("Choose the Device Config:");
     JLabel patientLabel = new JLabel("Enter the Patient ID:");
     
-    String[] devices = {"<Choose a Device Config>", "hackdevice1", "hackdevice2", "hackdevice3", 
-        "hackdevice4", "hackdevice5", "hackdevice6" };
+    String[] devices = {"<Choose a Device Config>", "hackdevice1", "hackdevice2", "hackdevice3", "hackdevice4", 
+        "hackdevice5", "hackdevice6", "hackdevice7", "hackdevice8", "hackdevice9", "hackdevice10" };
+    
     deviceBox = new JComboBox<String>(devices);
     patientText = new JTextField();
     

@@ -30,7 +30,7 @@ public class DeviceThread extends Thread {
   private int pulseValue    = 90;
   private int systolicBP    = 110;
   private int diastolicBP   = 70;
-  private double tempValue  = 98.4;
+  private double tempValue  = 98.6;
   private double o2SatValue = 100.0;
   
   private String deviceChoice;
@@ -119,7 +119,7 @@ public class DeviceThread extends Thread {
       totalcount++;
 
       try {
-        Thread.sleep(950);
+        Thread.sleep(990);
       } catch (InterruptedException e) {
         e.printStackTrace();
       }

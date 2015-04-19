@@ -56,7 +56,7 @@ public class DeviceSimFrame extends JFrame implements ActionListener {
   private int pulseValue    = 90;
   private int systolicBP    = 110;
   private int diastolicBP   = 70;
-  private double tempValue  = 98.4;
+  private double tempValue  = 98.6;
   private double o2SatValue = 100.0;
   
   private DeviceThread deviceThread;
@@ -113,7 +113,7 @@ public class DeviceSimFrame extends JFrame implements ActionListener {
 
     char c = '\u00B0';
     JLabel tempLabel = new JLabel("Temperature (" + c + "F): ", JLabel.RIGHT);
-    tempField = new JTextField("98.4");
+    tempField = new JTextField("98.6");
     tempDownButton = new JButton("-");
     tempUpButton   = new JButton("+");
     
