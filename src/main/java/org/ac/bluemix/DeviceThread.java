@@ -204,11 +204,7 @@ public class DeviceThread extends Thread {
    * @param tempValue the tempValue to set
    */
   public void setTempValue(double doubleValue) {
-    try {
-      
-    } catch (Throwable t) {
-      
-    }
+    tempValue = doubleValue;
   }
 
   /**
